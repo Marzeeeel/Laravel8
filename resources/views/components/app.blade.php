@@ -49,13 +49,13 @@
                 <span class="mx-4 font-medium">Contact</span>
             </a>
 
-            <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700{{ request()->routeIs('aboutme') ? ' bg-gray-200' : ''}}" href="{{route('aboutme')}}">
+            {{-- <a class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-200 transform rounded-md dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700{{ request()->routeIs('aboutme') ? ' bg-gray-200' : ''}}" href="{{route('aboutme')}}">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
 
                 <span class="mx-4 font-medium">About Me</span>
-            </a>
+            </a> --}}
 
             <hr class="my-6 border-gray-200 dark:border-gray-600" />
 
