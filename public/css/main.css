@@ -1,0 +1,10 @@
+th, td{
+    border: solid 0.5px black;
+    text-align: center;
+    padding: 10px 60px 10px 60px;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+}
